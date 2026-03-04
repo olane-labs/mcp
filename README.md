@@ -8,6 +8,7 @@ Claude Code plugin marketplace for [CoSync](https://copass.id) — knowledge gra
 /plugin marketplace add olane-labs/mcp
 /plugin install cosync-remote@olane
 /plugin install cosync-local@olane
+tell claude: "run cosync setup"
 ```
 
 ## Plugins
@@ -19,7 +20,19 @@ Remote MCP server for knowledge graph ingestion, entity search, ontology analysi
 - **Transport:** HTTP (`https://mcp.copass.id/mcp`)
 - **No local install required** — connects directly to the hosted server
 
-**Tools:** `check_project_status`, `ingest_code`, `ingest_text`, `ontology_analyze`, `ontology_question`, `search_entities`, `get_score`, `get_task_cosync`, `get_learning_requests`
+**Tools:**
+
+| Tool | Description |
+|------|-------------|
+| `check_project_status` | Check project indexing and authentication state |
+| `ingest_code` | Ingest source code into the knowledge graph |
+| `ingest_text` | Ingest text into the knowledge graph |
+| `cosync_analyze` | Analyze entities with confidence scoring |
+| `cosync_question` | Ask questions about the ontology |
+| `search_entities` | Search for entities in the knowledge graph |
+| `get_score` | Get CoSync scores for entities |
+| `get_task_cosync` | Get CoSync context for a task |
+| `get_learning_requests` | Get learning requests for low-scoring entities |
 
 ### cosync-local
 
@@ -28,7 +41,16 @@ Local encryption and project setup plugin. Session tokens and AES-256-GCM encryp
 - **Transport:** stdio (installed via `uvx olane-cosync-local`)
 - **Requires:** Python 3.10+, [uv](https://docs.astral.sh/uv/)
 
-**Tools:** `generate_session_token`, `encrypt_payload`, `encrypt_file`, `setup_project`, `update_auth_token`, `set_cosync_encryption_key`
+**Tools:**
+
+| Tool | Description |
+|------|-------------|
+| `generate_session_token` | Session token via DEK wrapping (call at session start) |
+| `encrypt_payload` | AES-256-GCM encrypt text |
+| `encrypt_file` | AES-256-GCM encrypt a file |
+| `setup_project` | Write hooks, scripts, config for a project |
+| `update_auth_token` | Persist a fresh auth token to config |
+| `set_cosync_encryption_key` | Write a master key (migration/team sharing) |
 
 ## Session Initialization
 
