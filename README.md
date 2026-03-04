@@ -5,11 +5,11 @@ Claude Code plugin marketplace for [CoSync](https://olane.com/cosync) by [Olane]
 ## Installation
 
 ```bash
-claude
+claude # run claude
 /plugin marketplace add olane-labs/mcp
 /plugin install cosync-remote@olane
 /plugin install cosync-local@olane
-tell claude "setup cosync"
+setup cosync # tell claude to run setup
 ```
 
 ## Plugins
