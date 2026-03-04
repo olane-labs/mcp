@@ -1,0 +1,11 @@
+{
+  "name": "cosync-local",
+  "description": "Local encryption and setup plugin for CoSync. Keys never leave your machine.",
+  "version": "0.2.0",
+  "mcpServers": {
+    "cosync-local": {
+      "command": "uvx",
+      "args": ["olane-cosync-local"]
+    }
+  }
+}

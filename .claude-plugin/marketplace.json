@@ -1,0 +1,23 @@
+{
+  "name": "olane",
+  "owner": {
+    "name": "Olane Labs"
+  },
+  "metadata": {
+    "description": "CoSync MCP servers — ontology graph-powered development context"
+  },
+  "plugins": [
+    {
+      "name": "cosync-remote",
+      "source": "./plugins/cosync-remote",
+      "description": "Remote MCP server for ontology graph ingestion, entity search, ontology analysis, and CoSync developer integration.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "cosync-local",
+      "source": "./plugins/cosync-local",
+      "description": "Local encryption and setup plugin for CoSync. Session tokens, AES-256-GCM encryption, project setup — keys never leave your machine.",
+      "version": "0.2.0"
+    }
+  ]
+}

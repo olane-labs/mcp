@@ -1,0 +1,11 @@
+{
+  "name": "cosync-remote",
+  "description": "Remote MCP server for knowledge graph ingestion, entity search, ontology analysis, and CoSync developer integration.",
+  "version": "0.1.0",
+  "mcpServers": {
+    "cosync-remote": {
+      "type": "http",
+      "url": "https://mcp.copass.id/mcp"
+    }
+  }
+}
