@@ -1,6 +1,6 @@
 # CoSync MCP Servers
 
-Claude Code plugin marketplace for [CoSync](https://copass.id) — knowledge graph-powered development context.
+Claude Code plugin marketplace for [CoSync](https://olane.com/cosync) by [Olane](https://olane.com) — knowledge graph-powered development context.
 
 ## Installation
 
