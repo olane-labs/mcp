@@ -5,7 +5,7 @@
   "mcpServers": {
     "copass-remote": {
       "type": "http",
-      "url": "https://mcp.copass.id/mcp"
+      "url": "https://mcp.copass.com/mcp"
     }
   }
 }
