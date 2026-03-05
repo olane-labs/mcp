@@ -11,7 +11,7 @@ claude # run claude
 /plugin install copass-remote@olane
 /plugin install copass-local@olane
 # restart claude
-setup copass # tell claude to run setup
+setup copass-remote # tell claude to run setup
 ```
 
 ## Plugins
