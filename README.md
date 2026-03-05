@@ -20,7 +20,7 @@ setup copass # tell claude to run setup
 
 Remote MCP server for knowledge graph ingestion, entity search, ontology analysis, and CoPass developer integration.
 
-- **Transport:** HTTP (`https://mcp.copass.id/mcp`)
+- **Transport:** HTTP (`https://mcp.copass.com/mcp`)
 - **No local install required** — connects directly to the hosted server
 
 **Tools:**
