@@ -10,7 +10,7 @@ claude # run claude
 /plugin marketplace add olane-labs/mcp
 /plugin install copass-remote@olane
 /plugin install copass-local@olane
-
+# restart claude
 setup copass # tell claude to run setup
 ```
 
