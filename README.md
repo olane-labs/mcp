@@ -11,6 +11,7 @@ claude # run claude
 /plugin install copass-remote@olane
 /plugin install copass-local@olane
 # restart claude
+# Run /mcp > copass-remote > authenticate
 setup copass-remote # tell claude to run setup
 ```
 
