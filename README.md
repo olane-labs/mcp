@@ -1,6 +1,6 @@
-# CoPass MCP Servers
+# Copass MCP Servers
 
-Claude Code plugin marketplace for [CoPass](https://olane.com/copass) by [Olane](https://olane.com) — knowledge graph-powered development context.
+Claude Code plugin marketplace for [Copass](https://olane.com/copass) by [Olane](https://olane.com) — knowledge graph-powered development context.
 
 ## Installation
 
@@ -21,7 +21,7 @@ setup copass-remote # tell claude to run setup
 
 ### copass-remote
 
-Remote MCP server for knowledge graph ingestion, entity search, ontology analysis, and CoPass developer integration.
+Remote MCP server for knowledge graph ingestion, entity search, ontology analysis, and Copass developer integration.
 
 - **Transport:** HTTP (`https://mcp.copass.com/mcp`)
 - **No local install required** — connects directly to the hosted server
@@ -36,8 +36,8 @@ Remote MCP server for knowledge graph ingestion, entity search, ontology analysi
 | `cosync_analyze` | Analyze entities with confidence scoring |
 | `cosync_question` | Ask questions about the ontology |
 | `search_entities` | Search for entities in the knowledge graph |
-| `get_score` | Get CoPass scores for entities |
-| `get_task_cosync` | Get CoPass context for a task |
+| `get_score` | Get Copass scores for entities |
+| `get_task_cosync` | Get Copass context for a task |
 | `get_learning_requests` | Get learning requests for low-scoring entities |
 
 ### copass-local
