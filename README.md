@@ -38,7 +38,7 @@ The plugin runs `olane copass --mcp` which starts a unified MCP server over stdi
 
 ## Requirements
 
-- [Olane CLI](https://github.com/olane-labs/o-network-cli) v2.0.0+
+- [Olane CLI](https://www.npmjs.com/package/@olane/o-cli?activeTab=readme) v2.0.0+
 - An Olane account (`olane login`)
 
 ## License
