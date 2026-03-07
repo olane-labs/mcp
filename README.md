@@ -11,7 +11,8 @@ brew install olane-labs/tap/olane
 
 # Authenticate
 olane login
-olane setup
+olane setup # run `olane setup` in every project you want to index
+olane index --mode full # index your project
 
 # In Claude Code:
 /plugin marketplace add olane-labs/mcp
