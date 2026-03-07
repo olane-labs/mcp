@@ -1,6 +1,6 @@
-# Olane MCP Server
+# Olane - Copass "Functional Memory" MCP Server
 
-Claude Code plugin for [Olane](https://olane.com) — ontology graph-powered development context.
+Claude Code plugin for [Olane](https://olane.com) — ontology graph-powered development context to enable "Functional Memory".
 
 ## Installation
 
