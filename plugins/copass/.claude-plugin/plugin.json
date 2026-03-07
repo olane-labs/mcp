@@ -1,5 +1,5 @@
 {
-  "name": "olane",
+  "name": "copass",
   "description": "Unified MCP server for Olane — ontology graph ingestion, entity search, cosync analysis, and developer context.",
   "version": "2.0.0",
   "mcpServers": {

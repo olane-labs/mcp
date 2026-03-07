@@ -8,8 +8,8 @@
   },
   "plugins": [
     {
-      "name": "olane",
-      "source": "./plugins/olane",
+      "name": "copass",
+      "source": "./plugins/copass",
       "description": "Unified MCP server for ontology graph ingestion, entity search, cosync analysis, and developer context.",
       "version": "2.0.0"
     }

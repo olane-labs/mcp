@@ -1,4 +1,4 @@
-# Olane - Copass "Functional Memory" MCP Server
+# Copass by Olane -- "Functional Memory" MCP Server
 
 Claude Code plugin for [Olane](https://olane.com) — ontology graph-powered development context to enable "Functional Memory".
 
@@ -15,7 +15,19 @@ olane setup
 
 # In Claude Code:
 /plugin marketplace add olane-labs/mcp
-/plugin install olane@olane
+/plugin install olane@copass
+
+# or manually add it to your mcp config
+# {
+#   "mcpServers": {
+#     "copass": {
+#       "type": "stdio",
+#       "command": "olane",
+#       "args": ["copass", "--mcp"]
+#     }
+#   }
+# }
+
 ```
 
 ## Tools
@@ -31,6 +43,7 @@ olane setup
 | `get_score` | Get cosync scores for entities |
 | `get_task_cosync` | Get cosync context for a task |
 | `get_learning_requests` | Get learning requests for low-scoring entities |
+| `index_project` | Index the current project |
 
 ## How It Works
 
