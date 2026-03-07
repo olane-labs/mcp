@@ -11,6 +11,7 @@ brew install olane-labs/tap/olane
 
 # Authenticate
 olane login
+olane setup
 
 # In Claude Code:
 /plugin marketplace add olane-labs/mcp
