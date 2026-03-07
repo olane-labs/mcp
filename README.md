@@ -7,7 +7,7 @@ Claude Code plugin for [Olane](https://olane.com) — ontology graph-powered dev
 ```bash
 # Install the Olane CLI first
 brew install olane-labs/tap/olane
-# or: npm install -g @olane/o-network-cli
+# or: npm install -g @olane/o-cli
 
 # Authenticate
 olane login
