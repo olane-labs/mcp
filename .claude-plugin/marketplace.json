@@ -4,20 +4,14 @@
     "name": "Olane Labs"
   },
   "metadata": {
-    "description": "CoPass MCP servers — ontology graph-powered development context"
+    "description": "Olane MCP server — ontology graph-powered development context"
   },
   "plugins": [
     {
-      "name": "copass-remote",
-      "source": "./plugins/copass-remote",
-      "description": "Remote MCP server for ontology graph ingestion, entity search, ontology analysis, and CoPass developer integration.",
-      "version": "0.1.0"
-    },
-    {
-      "name": "copass-local",
-      "source": "./plugins/copass-local",
-      "description": "Local encryption and setup plugin for CoPass. Session tokens, AES-256-GCM encryption, project setup — keys never leave your machine.",
-      "version": "0.3.2"
+      "name": "olane",
+      "source": "./plugins/olane",
+      "description": "Unified MCP server for ontology graph ingestion, entity search, cosync analysis, and developer context.",
+      "version": "2.0.0"
     }
   ]
 }
