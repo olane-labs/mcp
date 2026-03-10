@@ -16,7 +16,7 @@ olane index --mode full # index your project
 
 # In Claude Code:
 /plugin marketplace add olane-labs/mcp
-/plugin install olane@copass
+/plugin install copass@olane
 
 # or manually add it to your mcp config
 # {
