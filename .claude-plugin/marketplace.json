@@ -11,7 +11,7 @@
       "name": "copass",
       "source": "./plugins/copass",
       "description": "Unified MCP server for twin graph ingestion, entity search, cosync analysis, and developer context.",
-      "version": "2.0.1"
+      "version": "2.0.2"
     }
   ]
 }
